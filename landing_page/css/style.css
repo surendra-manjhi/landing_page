@@ -1,0 +1,478 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  width: 100%;
+  height: 100vh;
+}
+
+.header {
+  width: 100%;
+}
+
+.navbar {
+  padding: 1rem 0rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: auto;
+  width: 80%;
+}
+
+.logo {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.logo h2 {
+  font-size: 2rem;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.circle {
+  margin-right: 0.3rem;
+  border-radius: 2.3rem;
+  width: 2.3rem;
+  height: 2.3rem;
+  background-color: black;
+  color: white;
+}
+
+.nav {
+  margin-right: 6rem;
+  width: 35%;
+  height: 100%;
+}
+
+ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  font-size: 1.1rem;
+  padding: 1rem;
+  color: black;
+  text-decoration: none;
+}
+
+/* a:hover {
+  background-color: gainsboro;
+} */
+
+.btn {
+  display: inline-block;
+  cursor: pointer;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-weight: bold;
+  font-size: 1.1rem;
+  background-color: gainsboro;
+  padding: 1rem 2rem;
+  border-radius: 2rem;
+}
+
+/* .btn:hover {
+  background-color: rgb(173, 172, 172);
+} */
+
+main {
+  width: 100%;
+}
+
+.sec1 {
+  background-color: peachpuff;
+  display: flex;
+  justify-content: center;
+  height: 40rem;
+  margin: auto;
+}
+
+.info {
+  margin-left: 10rem;
+  width: 60%;
+  height: 100%;
+}
+
+.info h1 {
+  margin-top: 6rem;
+  width: 80%;
+  font-size: 4.5rem;
+}
+
+.info p {
+  padding: 1.5rem 0rem;
+  width: 48%;
+  font-size: 1.2rem;
+}
+
+.banner {
+  width: 40%;
+  background-image: url(/landing_page/img/01.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.b1 {
+  padding: 1.2rem;
+  margin-top: 1rem;
+  color: white;
+  background-color: rgb(27, 27, 27);
+}
+
+.sec2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  height: 40rem;
+  margin: auto;
+  width: 80%;
+}
+
+.sec2 h1 {
+  margin: 0rem auto;
+  width: 70%;
+  font-size: 2.8rem;
+  text-align: center;
+}
+
+.ctn {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.box {
+  padding: 5rem;
+  height: 22rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.box h3 {
+  margin: 1rem 0rem;
+  font-size: 1.5rem;
+}
+
+.box p {
+  font-size: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.l {
+  font-size: 1rem;
+  background-color: white;
+  width: 10rem;
+}
+
+.box1 {
+  background-color: rgb(202, 234, 202);
+}
+
+.box2 {
+  background-color: peachpuff;
+  margin: 0rem 3rem;
+}
+
+.box3 {
+  background-color: rgb(195, 231, 244);
+}
+
+.sec3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  width: 80%;
+  height: 40rem;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 30rem;
+}
+
+.information {
+  width: 60%;
+  height: 80%;
+}
+
+.information .title {
+  margin-bottom: 0.8rem;
+  border-radius: 1rem;
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  background-color: peachpuff;
+}
+
+.stories {
+  width: 60%;
+  padding: 2rem 0rem;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+}
+
+.story {
+  margin-left: 1.5rem;
+  list-style: disc;
+  font-size: 1.4rem;
+  font-weight: 600;
+}
+
+.short {
+  width: 70%;
+  margin-top: 0.5rem;
+  color: grey;
+  list-style: none;
+  margin-left: 1.5rem;
+  font-size: 0.8rem;
+  font-weight: 600;
+}
+
+::marker {
+  font-size: 2rem;
+}
+
+.information h2 {
+  font-size: 3.2rem;
+  width: 70%;
+}
+
+.banner2 {
+  width: 35%;
+  height: 100%;
+  background-image: url(/landing_page/img/02.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+
+.sec4 {
+  display: flex;
+  margin: auto;
+  width: 80%;
+  height: 40rem;
+}
+
+.banner3 {
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  margin: auto 0rem;
+  background-color: black;
+  height: 80%;
+  width: 35%;
+  background-image: url(/landing_page/img/03.jpg);
+}
+
+.info2 {
+  margin: auto;
+  margin-left: 10rem;
+  width: 60%;
+  height: 80%;
+}
+
+.head1 {
+  border-radius: 2rem;
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  background-color: rgb(202, 234, 202);
+  color: green;
+}
+
+.info2 h3 {
+  margin-top: 0.5rem;
+  font-size: 3.2rem;
+  width: 80%;
+}
+
+.info2 p {
+  line-height: 1.5rem;
+  margin-top: 1rem;
+  font-size: 1rem;
+}
+
+.cont {
+  width: 95%;
+  margin-top: 1rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.cont p {
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.sec5 {
+  padding-top: 8rem;
+  background-color: rgb(202, 234, 202);
+  width: 100%;
+  height: 36rem;
+}
+
+.sec5 h2 {
+  margin: auto;
+  width: 50%;
+  text-align: center;
+  font-size: 2rem;
+}
+
+.cnt {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 80%;
+  height: 60%;
+  margin: auto;
+  margin-top: 0.8rem;
+}
+
+.tab {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.tab h2 {
+  color: rgb(87, 138, 87);
+  font-size: 4rem;
+  margin-bottom: 0.8rem;
+}
+
+.tab h3 {
+  font-size: 3rem;
+}
+
+.tab p {
+  text-align: center;
+  width: 18rem;
+}
+
+.sec6 {
+  padding-top: 5rem;
+  width: 100%;
+  height: 42rem;
+}
+
+.sec6 h2 {
+  font-size: 2.8rem;
+  width: 80%;
+  margin: auto;
+  text-align: center;
+}
+
+.sec6 p {
+  width: 80%;
+  margin: auto;
+  margin-top: 1rem;
+  text-align: center;
+}
+
+.vnt {
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+  width: 80%;
+  height: 60%;
+  margin: auto;
+  margin-top: 3rem;
+}
+
+.que {
+  padding: 2rem;
+  width: 48%;
+}
+
+.que h3 {
+  margin-bottom: 2rem;
+}
+
+.que p {
+  padding-bottom: 1rem;
+  margin: 0rem;
+  text-align: left;
+  margin-bottom: 2rem;
+  border-bottom: 2px solid white;
+}
+
+.vnt .a {
+  background-color: lightblue;
+}
+
+.vnt .b {
+  background-color: peachpuff;
+}
+
+.sec7 {
+  color: white;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+  position: relative;
+  width: 100%;
+  height: 28rem;
+  background-color: black;
+}
+
+.ctna {
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+  width: 80%;
+  height: 90%;
+}
+
+.log {
+  width: 30%;
+}
+
+.pi {
+  background-color: white;
+}
+
+.log h2 {
+  margin-bottom: 1rem;
+}
+
+.log p {
+  width: 80%;
+}
+
+.ctno {
+  width: 50%;
+  height: 100%;
+  justify-content: space-between;
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+.boxy h3 {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.boxy p {
+  margin-bottom: 1rem;
+}
+
+.copyright {
+  width: 80%;
+  margin: auto;
+}
